@@ -11,7 +11,7 @@ namespace Euler
 
         static public int Problem1()
         {
-            // problem 1
+            // problem 1 g16m3797
             int sum = 0;
             for (int i = 0; i < 100; i++)
             {
