@@ -8,7 +8,6 @@ namespace Euler
 {
     class Program
     {
-<<<<<<< HEAD
 
         static public int Problem1()
         {
@@ -28,9 +27,10 @@ namespace Euler
 
         static void Main(string[] args)
         {
-   
+
             Problem1();
-=======
+            SumOfDiff();
+        }
         #region The function SumOfDiff writes the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum
         static public void SumOfDiff()
         {
@@ -46,14 +46,11 @@ namespace Euler
             Console.Read();
         }
         #endregion
-        static void Main(string[] args)
-        {
-            SumOfDiff();
->>>>>>> M
-        }
 
-       
 
-        
+
+
+
     }
-}
+} 
+    
