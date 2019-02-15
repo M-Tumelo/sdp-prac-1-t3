@@ -8,8 +8,31 @@ namespace Euler
 {
     class Program
     {
+
+        static public int Problem1()
+        {
+            // problem 1
+            int sum = 0;
+            for (int i = 0; i < 100; i++)
+            {
+                if (3 % i == 0 || 5 % i == 0)
+                {
+                    sum = sum + i;
+                }
+            }
+            Console.WriteLine("The sum for problem one is " + sum);
+            Console.ReadLine();
+        }
+
+
         static void Main(string[] args)
         {
+   
+            Problem1();
         }
+
+       
+
+        
     }
 }
